@@ -53,12 +53,12 @@ URL = "#home"
 weight = 1
 
 [[menu.main]]
-name = "Git"
+name = "Snapchat"
 URL = "#about"
 weight = 2
 
 [[menu.main]]
-name = "Ins"
+name = "Facebook"
 URL = "#service"
 weight = 3
 
