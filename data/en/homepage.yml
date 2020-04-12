@@ -1,12 +1,12 @@
 ########################## hero area ##########################
 hero:
-  title : "I'm Somrat Sorkar"
+  title : "I'm Ivan"
 
   # animated text loop
   occupations:
-    - "Web Developer"
-    - "Graphic Designer"
-    - "Database Manager"
+    - "Wofford Class of 2021"
+    - "Interested in machine learning"
+
 
   # slider background image loop
   slider_image:
