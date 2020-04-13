@@ -13,8 +13,6 @@ hero:
   slider_image:
     - "images/slider/mountains.png"
     - "images/slider/slider-1.jpg"
-    - "images/slider/slider-2.jpg"
-    - "images/slider/slider-3.jpg"
 
   # button
   button:
@@ -96,7 +94,7 @@ service:
   service_list:
     # service item loop
     - name : "Web Development"
-      image : "images/icons/web-development.png"
+      image : "images/sl"
       
     # service item loop
     - name : "Graphic Design"
