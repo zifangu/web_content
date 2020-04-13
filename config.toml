@@ -53,7 +53,7 @@ URL = "#home"
 weight = 1
 
 [[menu.main]]
-name = "Wofford"
+name = "About Me"
 URL = "#about"
 weight = 2
 
