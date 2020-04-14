@@ -6,13 +6,19 @@ hero:
   occupations:
     - "Wofford College Class of 2021"
     - "Interested in machine learning..."
-    - "Artificial Intelligence"
+    - "And Artificial Intelligence"
 
 
   # slider background image loop
   slider_image:
+    - "images/slider/study.JPG"
+    - "images/slider/suit.JPG"
     - "images/slider/mountains.png"
-    - "images/slider/slider-1.jpg"
+    - "images/slider/surgery.jpg"
+    - "images/slider/river.JPG"
+    - "images/slider/piano.JPG"
+    - "images/slider/family.JPG"
+
 
   # button
   button:
@@ -32,7 +38,7 @@ fullscreen_nav:
 ########################### About ##################################
 about:
   enable : true
-  image : "images/backgrounds/portrait.jpg"
+  image : "images/homepage/ranoke.jpg"
   title : "KNOW MORE <br> ABOUT ME"
   content : "Welcome to my first website. I'm still learning web pages so you might find many glitches.
     <br>
