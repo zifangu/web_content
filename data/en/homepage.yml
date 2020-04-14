@@ -40,8 +40,9 @@ about:
   title : "KNOW MORE <br> ABOUT ME"
   content : "Welcome to my first website. I'm still learning web pages so you might find many glitches.
 <br>
-     I was born and raised in Shanghai, China. I became an exchange student in 2014. Graduated high school and enrolled at Wofford in 2018.
-     I am now planning on apply for graduate school in fall 2020. On this site you will find some past projects I worked on. 🙂📖"
+<br>
+     Born and raised in Shanghai, China, I became an exchange student in 2014. Graduated high school and enrolled at Wofford in 2018.
+     I am now planning on apply to graduate schools in fall 2020. On this site you will find some past projects I worked on. 🙂📖"
   # button
   button:
     enable : true
