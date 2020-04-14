@@ -55,7 +55,7 @@ experience:
     - name : "Reliable Transport Protocol"
       company : "Computer Networks"
       duration : "Fall 2019"
-      content : "Emulated two versions of the protocol: alternating bits and go back to N"
+      content : "Emulated two versions of the protocol: alternating bits and go back to N."
       
     # experience item loop
     - name : "Assembly Language Emulator"
