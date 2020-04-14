@@ -35,38 +35,46 @@ about:
   image : "images/backgrounds/portrait.jpg"
   title : "KNOW MORE <br> ABOUT ME"
   content : "Welcome to my first website. I'm still learning web pages so you might find many glitches.
+    <br>
 
     <br> I was born and raised in Shanghai, China. I became an exchange student in 2014. Graduated high school and enrolled at Wofford in 2018.
      I am now planning on apply for graduate school in fall 2020. On this site you will find some past projects I worked on. 🙂📖"
   # button
   button:
     enable : true
-    label : "DOWNLOAD MY CV"
-    link : "Resume.pdf" # you can put your cv in static folder and give the path here.
+    label : "VIEW MY CV"
+    link : "images/Resume.pdf" # you can put your cv in static folder and give the path here.
 
 
 ###########################3 Experience ##############################
 experience:
   enable : true
-  title : "EXPERIENCE"
+  title : "Experience"
   experience_list:
     # experience item loop
-    - name : "Web Developer"
-      company : "Fiverr.com"
-      duration : "2016-2018"
-      content : "I work with HTML, CSS, and Javascript to create websites and web applications like Personal, Business, Blog, E-comerches etc."
+    - name : "Reliable Transport Protocol"
+      company : "Computer Networks"
+      duration : "Fall 2019"
+      content : "Emulated two versions of the protocol: alternating bits and go back to N"
       
     # experience item loop
-    - name : "Graphic Designer"
-      company : "Fiverr.com"
-      duration : "2015-2018"
-      content : "Graphic design is art with a purpose. I love illustration, so logo desing is my favorite work. But i can do many things with graphics."
-      
+    - name : "Assembly Language Emulator"
+      company : "Computer Organization & Architecture"
+      duration : "Fall 2019"
+      content : "A python program that emulates operations like counting, subtracting, producing fibonacci sequences in assembly language."
+
     # experience item loop
-    - name : "Database Manager"
-      company : "Polytechnic"
-      duration : "2014-2018"
-      content : "Database management is among the fundamental processes in the software field of computing. I know MS Access very well."
+    - name: "Software Engineer Intern"
+      company: "Sunyard Technology Co., Ltd"
+      duration: "Summer 2019"
+      content: "Client Trees. Authorization Levels. Non-recursive tree traversals."
+
+    # experience item loop
+    - name : "Weather App"
+      company : "Programming & Problem Solving"
+      duration : "Fall 2018"
+      content : "Simple interface that reports weather information at a location in US.
+      Information include temperature, sky condition, the icon assoicated with that condition, current time."
 
 
 ############################### Skill #################################
