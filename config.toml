@@ -80,7 +80,7 @@ weight = 6
 
 #################### default parameters ################################
 [params]
-logo_light = "images/logo.png"
+logo_light = "images/homepage/signature.png"
 logo_dark = "images/logo-dark.png"
 # Meta data
 description = "This is meta description"
