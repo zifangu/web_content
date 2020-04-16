@@ -135,7 +135,7 @@ service:
 
 ############################## call to action #########################
 call_to_action:
-  enable : true
+  enable : false
   bg_image : "images/backgrounds/need-service.jpg"
   title : "NEED A SERVICE?"
   button:
@@ -150,8 +150,8 @@ portfolio:
   title : "PORTFOLIO"
   portfolio_list:
     # portfolio item loop
-    - name : "Project <br> Title"
-      image : "images/portfolio/item1.jpg"
+    - name : "Wofford <br> Terrier"
+      image : "images/terrier.png"
       date : "Feb 2018"
       category : "Web Development"
       
