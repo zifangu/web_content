@@ -6,7 +6,7 @@ hero:
   occupations:
     - "Wofford College Class of 2021"
     - "Interested in machine learning..."
-    - "And Artificial Intelligence"
+    - "And Software Engineering"
 
 
   # slider background image loop
@@ -92,8 +92,12 @@ skill:
       
     # skill item loop
     - name : "Database"
-      parcentage : "60%"
-      
+      parcentage : "65%"
+
+    # skill item loop
+    - name: "Networking"
+      parcentage: "60%"
+
     # skill item loop
     - name : "Software Development"
       parcentage : "70%"
@@ -106,31 +110,27 @@ skill:
 ################################### Service ##############################3
 service:
   enable : true
-  title : "SERVICES"
+  title : "What I'm Familiar With"
   service_list:
     # service item loop
+    - name: "Software Development"
+      image: "images/icons/software-development.png"
+
+    # service item loop
+    - name : "SQL"
+      image : "images/icons/db.png"
+
+    # service item loop
+    - name: "Java"
+      image: "images/icons/java.png"
+      
+    # service item loop
     - name : "Web Development"
-      image : "images/sl"
-      
+      image : "images/icons/web-development.png"
+
     # service item loop
-    - name : "Graphic Design"
-      image : "images/icons/graphic-design.png"
-      
-    # service item loop
-    - name : "Database Management"
-      image : "images/icons/dbms.png"
-      
-    # service item loop
-    - name : "Software Development"
-      image : "images/icons/software-development.png"
-      
-    # service item loop
-    - name : "Digital Marketing"
-      image : "images/icons/marketing.png"
-      
-    # service item loop
-    - name : "Mobile App Development"
-      image : "images/icons/mobile-app.png"
+    - name: "Networking"
+      image: "images/icons/handshake.jpeg"
 
 
 ############################## call to action #########################
