@@ -153,25 +153,25 @@ portfolio:
     - name : "Wofford <br> Terrier"
       image : "images/terrier.png"
       date : "Feb 2018"
-      category : "Web Development"
+      category : "Web"
       
     # portfolio item loop
     - name : "Project <br> Title"
       image : "images/portfolio/item2.jpg"
       date : "Feb 2018"
-      category : "Web Development"
+      category : " Development"
       
     # portfolio item loop
     - name : "Project <br> Title"
       image : "images/portfolio/item3.jpg"
       date : "Feb 2018"
-      category : "Web Development"
+      category : "Test"
       
     # portfolio item loop
     - name : "Project <br> Title"
       image : "images/portfolio/item4.jpg"
       date : "Feb 2018"
-      category : "Web Development"
+      category : "Weather App"
       
     # portfolio item loop
     - name : "Project <br> Title"
