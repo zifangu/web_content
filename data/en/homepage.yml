@@ -112,25 +112,26 @@ service:
   enable : true
   title : "What I'm Familiar With"
   service_list:
-    # service item loop
-    - name: "Software Development"
-      image: "images/icons/software-development.png"
+
+   # service item loop
+    - name: "Java"
+      image: "images/icons/java.png"
 
     # service item loop
     - name : "SQL"
       image : "images/icons/db.png"
 
     # service item loop
-    - name: "Java"
-      image: "images/icons/java.png"
-      
+    - name: "Software Development"
+      image: "images/icons/software-development.png"
+
     # service item loop
     - name : "Web Development"
       image : "images/icons/web-development.png"
 
     # service item loop
     - name: "Networking"
-      image: "images/icons/handshake.jpeg"
+      image: "images/icons/handshake.png"
 
 
 ############################## call to action #########################
