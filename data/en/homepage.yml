@@ -131,7 +131,7 @@ service:
 
     # service item loop
     - name: "Networking"
-      image: "images/icons/handshake.png"
+      image: "images/icons/hs.png"
 
 
 ############################## call to action #########################
