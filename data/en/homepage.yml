@@ -176,24 +176,6 @@ portfolio:
       
     # portfolio item loop
     - name : "Project <br> Title"
-      image : "images/portfolio/item5.jpg"
-      date : "Feb 2018"
-      category : "Web Development"
-      
-    # portfolio item loop
-    - name : "Project <br> Title"
-      image : "images/portfolio/item6.jpg"
-      date : "Feb 2018"
-      category : "Web Development"
-      
-    # portfolio item loop
-    - name : "Project <br> Title"
-      image : "images/portfolio/item7.jpg"
-      date : "Feb 2018"
-      category : "Graphics"
-      
-    # portfolio item loop
-    - name : "Project <br> Title"
       image : "images/portfolio/item8.jpg"
       date : "Feb 2018"
       category : "Graphics"
@@ -215,24 +197,7 @@ portfolio:
       image : "images/portfolio/item11.jpg"
       date : "Feb 2018"
       category : "Database"
-      
-    # portfolio item loop
-    - name : "Project <br> Title"
-      image : "images/portfolio/item12.jpg"
-      date : "Feb 2018"
-      category : "Graphics"
-      
-    # portfolio item loop
-    - name : "Project <br> Title"
-      image : "images/portfolio/item13.jpg"
-      date : "Feb 2018"
-      category : "Graphics"
-      
-    # portfolio item loop
-    - name : "Project <br> Title"
-      image : "images/portfolio/item14.jpg"
-      date : "Feb 2018"
-      category : "Graphics"
+
       
     # portfolio item loop
     - name : "Project <br> Title"
