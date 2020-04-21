@@ -236,6 +236,7 @@
 	// Initialize MagnificPopup Plugin
 	$('.filtr-container').magnificPopup({
 		type: 'image',
+//		midClick: true
 		delegate: 'a',
 		gallery: {
 			enabled: true
