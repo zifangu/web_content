@@ -168,35 +168,38 @@ portfolio:
   title : "PORTFOLIO"
   portfolio_list:
     # portfolio item loop
-    - name : "Wofford <br> Terrier"
+    - name : "DFA"
       link : "https://github.com/zifangu/dfa"
-      image : "images/terrier.png"
-      date : "Feb 2018"
-      category : "Web"
+      image : "images/dfa.png"
+      date : "Spring 2020"
+      category : "Theory"
       
     # portfolio item loop
-    - name : "Project <br> Title"
-      image : "images/portfolio/item2.jpg"
-      date : "Feb 2018"
-      category : " Development"
+    - name : "DPDA"
+      link : "https://github.com/zifangu/DPDA"
+      image : "images/portfolio/dpda.png"
+      date : "Spring 2020"
+      category : "Theory"
       
     # portfolio item loop
-    - name : "Project <br> Title"
-      image : "images/portfolio/item3.jpg"
-      date : "Feb 2018"
-      category : "Test"
+    - name : "Turing <br> Machine"
+      link : "https://github.com/zifangu/Turing_Machine"
+      image : "images/portfolio/tm.png"
+      date : "Spring 2020"
+      category : "Theory"
       
     # portfolio item loop
-    - name : "Project <br> Title"
-      image : "images/portfolio/item4.jpg"
-      date : "Feb 2018"
-      category : "Weather App"
+    - name : "NFA"
+      link : "https://github.com/zifangu/nfa"
+      image : "images/portfolio/nfa.png"
+      date : "Spring 2020"
+      category : "Theory"
       
     # portfolio item loop
-    - name : "Project <br> Title"
+    - name : "Assembly <br> Language"
       image : "images/portfolio/item8.jpg"
-      date : "Feb 2018"
-      category : "Graphics"
+      date : "Fall 2019"
+      category : "Assembly Language"
       
     # portfolio item loop
     - name : "Project <br> Title"
