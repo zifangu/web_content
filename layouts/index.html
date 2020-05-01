@@ -221,6 +221,11 @@
               {{ with .company }} <span>{{ . | markdownify }}</span> {{ end }}
               {{ with .duration }} <span><br>{{ . | markdownify }}</span> {{ end }}
               {{ with .content }} <p>{{ . | markdownify}}</p> {{ end }}
+              {{ if .button.enable }}
+              {{ with .button }}
+               <a href="{{ .link | absURL }}" class="download-cv hvr-icon-hang"> {{ .label }} &nbsp; &nbsp; &nbsp;</a>
+              {{ end }}
+              {{ end }}
             </div>
           </li>
           {{ end }}
@@ -332,7 +337,7 @@
           {{ range .portfolio_list }}
           <div class="col-lg-4 col-md-6 col-sm-6 col-12 filtr-item" data-category="{{ .category | urlize }}">
             <div class="item-holder">
-              <a href="{{ .image | absURL }}" title="{{ .name | safeHTML }}">
+              <a href="{{ .link | absURL }}" title="{{ .name | safeHTML }}">
                   <img src="{{ .image | absURL }}" alt="{{ .name | safeHTML }}">
                 <div class="item-caption">
                   <h2>{{ .name | safeHTML }}</h2>

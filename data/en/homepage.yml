@@ -55,6 +55,23 @@ experience:
   enable : true
   title : "Experience"
   experience_list:
+
+    # experience item loop
+    - name: "COVID-19 US Data analysis"
+      company: "Intoduction to Databases"
+      duration: "Spring 2020"
+      content: "To be written"
+
+    # experience item loop
+    - name: "Techinical Paper"
+      company: "Algorithm Design & Analysis"
+      duration: "Spring 2020"
+      content: "Designed an algorithm with log-linear time complexity to traverse through arrays examined in a hypothetical banking scenario."
+      button:
+        enable: true
+        label: "VIEW MY PAPER"
+        link: "images/Zifan_Gu_technical.pdf"
+
     # experience item loop
     - name : "Reliable Transport Protocol"
       company : "Computer Networks"
@@ -152,7 +169,7 @@ portfolio:
   portfolio_list:
     # portfolio item loop
     - name : "Wofford <br> Terrier"
-      test : "https://github.com/zifangu/dfa"
+      link : "https://github.com/zifangu/dfa"
       image : "images/terrier.png"
       date : "Feb 2018"
       category : "Web"
