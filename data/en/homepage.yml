@@ -177,14 +177,14 @@ portfolio:
     # portfolio item loop
     - name : "DPDA"
       link : "https://github.com/zifangu/DPDA"
-      image : "images/portfolio/dpda.png"
+      image : "images/dpda.png"
       date : "Spring 2020"
       category : "Theory"
       
     # portfolio item loop
     - name : "Turing <br> Machine"
       link : "https://github.com/zifangu/Turing_Machine"
-      image : "images/portfolio/tm.png"
+      image : "images/tm.png"
       date : "Spring 2020"
       category : "Theory"
       
@@ -197,34 +197,30 @@ portfolio:
       
     # portfolio item loop
     - name : "Assembly <br> Language"
-      image : "images/portfolio/item8.jpg"
+      link : "https://github.com/zifangu/Assembly-Language-Emulator"
+      image : "images/lda.png"
       date : "Fall 2019"
       category : "Assembly Language"
       
     # portfolio item loop
-    - name : "Project <br> Title"
-      image : "images/portfolio/item9.jpg"
-      date : "Feb 2018"
-      category : "Database"
+    - name : "ADT"
+      image : "images/adt.png"
+      date : "Spring 2019"
+      category : "Algorithms"
       
     # portfolio item loop
-    - name : "Project <br> Title"
-      image : "images/portfolio/item10.jpg"
-      date : "Feb 2018"
-      category : "Database"
+    - name : "Trading"
+      image : "images/trade.png"
+      date : "Spring 2020"
+      category : "Algorithms"
       
     # portfolio item loop
-    - name : "Project <br> Title"
-      image : "images/portfolio/item11.jpg"
+    - name : "Weather <br> App"
+      image : "images/weather.gif"
       date : "Feb 2018"
-      category : "Database"
+      category : "Software"
 
-      
-    # portfolio item loop
-    - name : "Project <br> Title"
-      image : "images/portfolio/item15.jpg"
-      date : "Feb 2018"
-      category : "Graphics"
+
 
 
 ################################# Testimonial #########################33
