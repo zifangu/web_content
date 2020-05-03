@@ -20,7 +20,7 @@ hero:
 
   # button
   button:
-    enable : true
+    enable : false
     label : "HIRE ME"
     link : "#contact"
 
@@ -191,12 +191,12 @@ portfolio:
     # portfolio item loop
     - name : "NFA"
       link : "https://github.com/zifangu/nfa"
-      image : "images/portfolio/nfa.png"
+      image : "images/nfa.png"
       date : "Spring 2020"
       category : "Theory"
       
     # portfolio item loop
-    - name : "Assembly <br> Language"
+    - name : "Assemb. <br> Lang."
       link : "https://github.com/zifangu/Assembly-Language-Emulator"
       image : "images/lda.png"
       date : "Fall 2019"
@@ -204,19 +204,22 @@ portfolio:
       
     # portfolio item loop
     - name : "ADT"
+      link : "https://github.com/zifangu/Singly_Linked_List"
       image : "images/adt.png"
       date : "Spring 2019"
       category : "Algorithms"
       
     # portfolio item loop
     - name : "Trading"
-      image : "images/trade.png"
+      link : "https://github.com/zifangu/Trading"
+      image : "images/money.jpg"
       date : "Spring 2020"
       category : "Algorithms"
       
     # portfolio item loop
     - name : "Weather <br> App"
-      image : "images/weather.gif"
+      link : "https://github.com/zifangu/Weather-App"
+      image : "images/rainbow.jpg"
       date : "Feb 2018"
       category : "Software"
 
@@ -225,7 +228,7 @@ portfolio:
 
 ################################# Testimonial #########################33
 testimonial:
-  enable : true
+  enable : false
   title : "TESTIMONIALS"
   testimonial_slider:
     # slider item loop

@@ -1281,7 +1281,8 @@ ul.experience-chart h4 {
 }
 
 .filtr-item img {
-  width: 100%;
+  width: 300px;
+  padding-top: 40%;
   -webkit-transition: -webkit-transform 0.5s ease-in-out;
   transition: -webkit-transform 0.5s ease-in-out;
   transition: transform 0.5s ease-in-out;

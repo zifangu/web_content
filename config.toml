@@ -1,7 +1,7 @@
 ######################## default configuration ####################
 baseURL = "https://zifangu.github.io/"
 title = "Zifan Gu"
-theme = "somrat"
+theme = "hugo"
 # disable language
 disableLanguages = [] # desable language from here
 
@@ -58,7 +58,7 @@ URL = "#about"
 weight = 2
 
 [[menu.main]]
-name = "Facebook"
+name = "Experience"
 URL = "#service"
 weight = 3
 
@@ -66,16 +66,16 @@ weight = 3
 name = "Portfolio"
 URL = "#portfolio"
 weight = 4
-
-[[menu.main]]
-name = "Testimonial"
-URL = "#testimonial"
-weight = 5
-
-[[menu.main]]
-name = "Contact"
-URL = "#contact"
-weight = 6
+#
+#[[menu.main]]
+#name = "Testimonial"
+#URL = "#testimonial"
+#weight = 5
+#
+#[[menu.main]]
+#name = "Contact"
+#URL = "#contact"
+#weight = 6
 
 
 #################### default parameters ################################
@@ -129,11 +129,11 @@ copyright = "Copyright &copy; 2020 a hugo theme by [somrat](https://somrat.netli
 
 
 ################################### French language #####################################
-[Languages.fr]
-languageName = "Fr"
-languageCode = "fr-fr"
-contentDir = "content/french"
-weight = 2
-home = "Accueil"
-# copyright
-copyright = "Copyright &copy; 2020 a hugo theme by [somrat](https://somrat.netlify.com)"
+#[Languages.fr]
+#languageName = "Fr"
+#languageCode = "fr-fr"
+#contentDir = "content/french"
+#weight = 2
+#home = "Accueil"
+## copyright
+#copyright = "Copyright &copy; 2020 a hugo theme by [somrat](https://somrat.netlify.com)"
