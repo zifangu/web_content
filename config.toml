@@ -1,7 +1,7 @@
 ######################## default configuration ####################
 baseURL = "https://zifangu.github.io/"
 title = "Zifan Gu"
-theme = "hugo"
+theme = "somrat"
 # disable language
 disableLanguages = [] # desable language from here
 

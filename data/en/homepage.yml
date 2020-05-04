@@ -150,6 +150,11 @@ service:
     - name: "Networking"
       image: "images/icons/hs.png"
 
+    # service item loop
+    - name: "Framework"
+      image: "images/icons/flask.png"
+
+
 
 ############################## call to action #########################
 call_to_action:
@@ -263,14 +268,14 @@ funfacts:
       count : "100"
       
     # funfacts item loop
-    - name : "HAPPY CLIENT"
+    - name : "HAPPY HOURS / DAY"
       image : "images/icons/happy.png"
-      count : "200"
+      count : "24"
       
     # funfacts item loop
     - name : "FINISHED PROJECT"
       image : "images/icons/project.png"
-      count : "250"
+      count : "50"
       
     # funfacts item loop
     - name : "CUPS OF COFFEE"
@@ -281,4 +286,4 @@ funfacts:
 ############################## contact ###########################
 contact:
   enable : true
-  title : "SAY HELLO!"
+  title : "Social Media Listed Below!"
