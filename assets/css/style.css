@@ -1306,9 +1306,9 @@ ul.experience-chart h4 {
 
 .item-caption {
   position: absolute;
-  top: 24px;
+  top: 140px;
   bottom: 0;
-  left: 0;
+  left: 35;
   width: 150px;
   background: #313131;
   -webkit-transform: translateX(-150px);

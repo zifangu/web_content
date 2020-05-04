@@ -213,11 +213,18 @@ portfolio:
       image : "images/adt.png"
       date : "Spring 2019"
       category : "Algorithms"
+
+      # portfolio item loop
+    - name: "RTP"
+      link: "https://github.com/zifangu/RTP"
+      image: "images/rtp.png"
+      date: "Fall 2019"
+      category: "Network"
       
     # portfolio item loop
     - name : "Trading"
       link : "https://github.com/zifangu/Trading"
-      image : "images/money.jpg"
+      image : "images/money.png"
       date : "Spring 2020"
       category : "Algorithms"
       
