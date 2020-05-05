@@ -69,7 +69,7 @@ experience:
       content: "Designed an algorithm with log-linear time complexity to traverse through arrays examined in a hypothetical banking scenario."
       button:
         enable: true
-        label: "VIEW MY PAPER"
+        label: "READ MY PAPER"
         link: "images/Zifan_Gu_technical.pdf"
 
     # experience item loop
