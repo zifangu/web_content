@@ -1200,7 +1200,7 @@ ul.experience-chart h4 {
 
 .portfolio {
   background: #fff;
-  padding: 70px 0px;
+  padding: 170px 0px;
 }
 
 .portfolio h1 {
@@ -1281,8 +1281,7 @@ ul.experience-chart h4 {
 }
 
 .filtr-item img {
-  width: 300px;
-  padding-top: 0%;
+  width: 100%;
   -webkit-transition: -webkit-transform 0.5s ease-in-out;
   transition: -webkit-transform 0.5s ease-in-out;
   transition: transform 0.5s ease-in-out;
@@ -1306,9 +1305,9 @@ ul.experience-chart h4 {
 
 .item-caption {
   position: absolute;
-  top: 140px;
+  top: 24px;
   bottom: 0;
-  left: 35;
+  left: 0;
   width: 150px;
   background: #313131;
   -webkit-transform: translateX(-150px);

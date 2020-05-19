@@ -4,9 +4,17 @@
 	/*--------------------------------
 	 Start Preloader Animation
 	----------------------------------*/
+
+	window.onload = function() {
+    if(!window.location.hash) {
+        window.location = window.location + '#welcome';
+        window.location.reload();
+        }
+    }
 	$(window).on('load', function () {
 		$('.preloader').fadeOut(100);
 	});
+
 
 	/*--------------------------------
 			End Preloader Animation
@@ -249,14 +257,14 @@
 	});
 
 	// Galley Shuffle When Scrolled Down
-	$('.services').waypoint({
-		handler: function (direction) {
-			if (direction == "down") {
-				filterizd.filterizr('shuffle');
-			}
-		},
-		offset: "bottom-in-view"
-	});
+//	$('.services').waypoint({
+//		handler: function (direction) {
+//			if (direction == "down") {
+//				filterizd.filterizr('shuffle');
+//			}
+//		},
+//		offset: "bottom-in-view"
+//	});
 
 	// load more button
 

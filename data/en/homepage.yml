@@ -5,7 +5,7 @@ hero:
   # animated text loop
   occupations:
     - "Wofford College Class of 2021"
-    - "Interested in machine learning..."
+    - "Passionate About Machine Learning..."
     - "And Software Engineering"
 
 
@@ -57,10 +57,13 @@ experience:
   experience_list:
 
     # experience item loop
-    - name: "COVID-19 US Data analysis"
+    - name: "COVID-19 US Data Analysis"
       company: "Intoduction to Databases"
       duration: "Spring 2020"
-      content: "To be written"
+      content: "Created a 3NF from Johns Hopkins Github repo. Deployed a Flask service allowing GET
+      requests on information like active and deaths, single day or cumulative. Combining those data with hospital beds available
+      in a region to provide hospital capacities. This interface is also capable of displaying AJAX client web page to produce line
+      charts on daily active cases/deaths."
 
     # experience item loop
     - name: "Techinical Paper"
@@ -173,18 +176,18 @@ portfolio:
   title : "PORTFOLIO"
   portfolio_list:
     # portfolio item loop
-    - name : "DFA"
-      link : "https://github.com/zifangu/dfa"
-      image : "images/dfa.png"
+    - name : "COVID Data Analysis"
+      link : "https://github.com/zifangu/COVID-19-US"
+      image : "images/covid19.jpg"
       date : "Spring 2020"
-      category : "Theory"
-      
-    # portfolio item loop
-    - name : "DPDA"
-      link : "https://github.com/zifangu/DPDA"
-      image : "images/dpda.png"
-      date : "Spring 2020"
-      category : "Theory"
+      category : "Network"
+
+    - name : "Assemb. <br> Lang."
+      link : "https://github.com/zifangu/Assembly-Language-Emulator"
+      image : "images/lda.png"
+      date : "Fall 2019"
+      category : "Assembly Language"
+
       
     # portfolio item loop
     - name : "Turing <br> Machine"
@@ -199,20 +202,29 @@ portfolio:
       image : "images/nfa.png"
       date : "Spring 2020"
       category : "Theory"
-      
+
     # portfolio item loop
-    - name : "Assemb. <br> Lang."
-      link : "https://github.com/zifangu/Assembly-Language-Emulator"
-      image : "images/lda.png"
-      date : "Fall 2019"
-      category : "Assembly Language"
-      
+    - name : "Trading"
+      link : "https://github.com/zifangu/Trading"
+      image : "images/money.png"
+      date : "Spring 2020"
+      category : "Algorithms"
+
+
     # portfolio item loop
     - name : "ADT"
       link : "https://github.com/zifangu/Singly_Linked_List"
       image : "images/adt.png"
       date : "Spring 2019"
       category : "Algorithms"
+
+    # portfolio item loop
+    - name : "DPDA"
+      link : "https://github.com/zifangu/DPDA"
+      image : "images/dpda.png"
+      date : "Spring 2020"
+      category : "Theory"
+
 
       # portfolio item loop
     - name: "RTP"
@@ -221,12 +233,7 @@ portfolio:
       date: "Fall 2019"
       category: "Network"
       
-    # portfolio item loop
-    - name : "Trading"
-      link : "https://github.com/zifangu/Trading"
-      image : "images/money.png"
-      date : "Spring 2020"
-      category : "Algorithms"
+
       
     # portfolio item loop
     - name : "Weather <br> App"
