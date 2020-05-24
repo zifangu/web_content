@@ -41,8 +41,8 @@ about:
   content : "Welcome to my first website. I'm still learning web pages so you might find many glitches.
 <br>
 <br>
-     Born and raised in Shanghai, China, I became an exchange student in 2014. Graduated high school and enrolled at Wofford in 2018.
-     I am now planning on apply to graduate schools in fall 2020. On this site you will find some past projects I worked on. 🙂📖"
+     Born and raised in Shanghai, China, I became an exchange student in 2014. I graduated from high school and enrolled at Wofford in 2018.
+     I am now planning on applying to graduate schools in fall 2020. On this site you will find some past projects I worked on. 🙂📖"
   # button
   button:
     enable : true
@@ -149,7 +149,7 @@ skill:
 ################################### Service ##############################3
 service:
   enable : true
-  title : "What I'm Familiar With"
+  title : "I'm Familiar With"
   service_list:
 
    # service item loop
