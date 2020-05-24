@@ -87,6 +87,16 @@ experience:
       duration : "Fall 2019"
       content : "A python program that emulates operations like counting, subtracting, producing fibonacci sequences in assembly language."
 
+    - name: "Research Paper"
+      company: "Medical Physics"
+      duration: "Fall 2019"
+      content: "A research paper examining the history, principles, and applications of Magnetic Resonance Imaging, with a
+      focus on NMR, the Bloch Equations, as well as applications to cardiology and oncology."
+      button:
+        enable: true
+        label: "READ MY PAPER"
+        link: "images/physics.pdf"
+
     # experience item loop
     - name: "Software Engineer Intern"
       company: "Sunyard Technology Co., Ltd"
@@ -107,10 +117,19 @@ skill:
   title : "SKILL"
   skill_list:
     # skill item loop
-    - name : "Programming languages (Python, C++, Java, Matlab, etc)"
+    - name : "Python"
       parcentage : "85%"
-      
-    # skill item loop
+
+    - name: "C or C++"
+      parcentage: "80%"
+
+    - name : "MatLab"
+      parcentage : "70%"
+
+    - name: "Java"
+      parcentage: "75%"
+
+      # skill item loop
     - name : "Database"
       parcentage : "65%"
 
