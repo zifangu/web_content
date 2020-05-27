@@ -38,15 +38,15 @@ about:
   enable : true
   image : "images/homepage/ranoke.jpg"
   title : "KNOW MORE <br> ABOUT ME"
-  content : "Welcome to my first website. I'm still learning web pages so you might find many glitches.
+  content : "Welcome to my personal website. I'm still learning web pages so you might find some glitches.
 <br>
 <br>
      Born and raised in Shanghai, China, I became an exchange student in 2014. I graduated from high school and enrolled at Wofford in 2018.
-     I am now planning on applying to graduate schools in fall 2020. On this site you will find some past projects I worked on. 🙂📖"
+     I am now planning on applying to graduate schools in fall 2020. On this site, you will find some past projects I worked on. 🙂📖"
   # button
   button:
     enable : true
-    label : "VIEW MY CV"
+    label : "VIEW MY RESUME"
     link : "images/Resume.pdf"
 
 
@@ -61,12 +61,13 @@ experience:
       company: "Intoduction to Databases"
       duration: "Spring 2020"
       content: "Created a 3NF from Johns Hopkins Github repo. Deployed a Flask service allowing GET
-      requests on information like active and deaths, single day or cumulative. Combining those data with hospital beds available
-      in a region to provide hospital capacities. This interface is also capable of displaying AJAX client web page to produce line
-      charts on daily active cases/deaths."
+                requests on information like active and deaths, single day or cumulative. Combining this data with hospital beds available
+                in a region to provide hospital capacities. <br> This interface is also capable of displaying the AJAX client web page to produce line
+                charts on daily active cases/deaths.
+"
 
     # experience item loop
-    - name: "Techinical Paper"
+    - name: "Technical Paper"
       company: "Algorithm Design & Analysis"
       duration: "Spring 2020"
       content: "Designed an algorithm with log-linear time complexity to traverse through arrays examined in a hypothetical banking scenario."
@@ -85,7 +86,7 @@ experience:
     - name : "Assembly Language Emulator"
       company : "Computer Organization & Architecture"
       duration : "Fall 2019"
-      content : "A python program that emulates operations like counting, subtracting, producing fibonacci sequences in assembly language."
+      content : "A python program that emulates operations like counting, subtracting, producing Fibonacci sequences in assembly language."
 
     - name: "Research Paper"
       company: "Medical Physics"
@@ -101,14 +102,17 @@ experience:
     - name: "Software Engineer Intern"
       company: "Sunyard Technology Co., Ltd"
       duration: "Summer 2019"
-      content: "Client Trees. Authorization Levels. Non-recursive tree traversals."
+      content: "Interned at an outsourcing company. The project in Java is to prevent certain users to access particular information based on the clients' corporate divisions and branches.
+        <br> Main duty: debugging display issues and duplicity; wrote a function call that non-recursively traverses through a tree and assigns organizations authorization levels."
 
     # experience item loop
     - name : "Weather App"
       company : "Programming & Problem Solving"
       duration : "Fall 2018"
-      content : "Simple interface that reports weather information at a location in US.
-      Information include temperature, sky condition, the icon assoicated with that condition, current time."
+      content : "Simple interface that reports weather information at a location in the US.
+                 Information includes temperature, sky condition, the icon associated with that condition, current time.
+
+"
 
 
 ############################### Skill #################################
@@ -319,4 +323,4 @@ funfacts:
 ############################## contact ###########################
 contact:
   enable : true
-  title : "Social Media Listed Below!"
+  title : "Social Media"

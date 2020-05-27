@@ -220,7 +220,7 @@
               <h4>{{ .name | markdownify }}</h4>
               {{ with .company }} <span>{{ . | markdownify }}</span> {{ end }}
               {{ with .duration }} <span><br>{{ . | markdownify }}</span> {{ end }}
-              {{ with .content }} <p>{{ . | markdownify}}</p> {{ end }}
+              {{ with .content }} <p>{{ . | emojify }}</p> {{ end }}
               {{ if .button.enable }}
               {{ with .button }}
                <a href="{{ .link | absURL }}" class="download-cv hvr-icon-hang"> {{ .label }} &nbsp; &nbsp; &nbsp;</a>
