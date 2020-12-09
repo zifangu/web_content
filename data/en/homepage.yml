@@ -6,6 +6,7 @@ hero:
   occupations:
     - "Wofford College Class of 2021"
     - "Passionate About Machine Learning..."
+    - "Biomedical Informatics..."
     - "And Software Engineering"
 
 
@@ -42,12 +43,12 @@ about:
 <br>
 <br>
      Born and raised in Shanghai, China, I became an exchange student in 2014. I graduated from high school and enrolled at Wofford in 2018.
-     I am now planning on applying to graduate schools in fall 2020. On this site, you will find some past projects I worked on. 🙂📖"
+     I am now applying to graduate schools for the fall 2021 term. On this site, you will find my relevant experiences and past projects I've worked on. 🙂📖"
   # button
   button:
     enable : true
     label : "VIEW MY RESUME"
-    link : "images/Resume.pdf"
+    link : "images/Gu_Resume.pdf"
 
 
 ###########################3 Experience ##############################
@@ -57,15 +58,43 @@ experience:
   experience_list:
 
     # experience item loop
+    - name: "Heart Rate Variability Among College Students"
+      company: "Research with Dr. Carolyn Martsberger"
+      duration: "Fall 2020"
+      content: "Analyzing the hearts’ responses when encountering different images———neutral, negative, categorical———with
+      detrended fluctuation analysis (DFA) in MATLAB.
+      Results are in preprint for Frontiers in Physiology."
+
+    # experience item loop
+    - name: "Machi Koro Board Game Digitalization"
+      company: "Software Engineering"
+      duration: "Fall 2020"
+      content: "Players include human and AI to be played on console. AIs are strategic
+      to prioritize buying options. Implemented Observer listener pattern to separate card activations and console input/output. "
+
+    # experience item loop
+    - name: "Virtual Experience Program Participant"
+      company: "JPMorgan Chase and Co. "
+      duration: "Summer 2020"
+      content: "Had a cursory experience in what remote work may be like. Applied data visualization for trading prices.
+      Use JPMorgan Chase frameworks and tools to interface with a stock price data feed. Refreshed on using Git for software developments"
+
+    # experience item loop
+    - name: "Supervised Learning on League of Legends"
+      company: "Research with Dr. Beau Christ"
+      duration: "Summer 2020"
+      content: " Analyzed 10,000 ranked games of League of Legends. Achieved average AUC of 0.8 in classifications using step-wise regression and Naive Bayes Model.
+       In the end, we pruned decision trees to produce 5 factors out 38 that is imperative for a team's victory"
+
+    # experience item loop
     - name: "COVID-19 US Data Analysis"
-      company: "Intoduction to Databases"
+      company: "Introduction to Databases"
       duration: "Spring 2020"
       content: "Created a 3NF from Johns Hopkins Github repo. Deployed a Flask service allowing GET
                 requests on information like active and deaths, single day or cumulative. Combining this data with hospital beds available
                 in a region to provide hospital capacities. <p> This interface is also capable of displaying the AJAX client web page to produce line
                 charts on daily active cases/deaths.
 "
-
     # experience item loop
     - name: "Technical Paper"
       company: "Algorithm Design & Analysis"
@@ -103,7 +132,7 @@ experience:
       company: "Sunyard Technology Co., Ltd"
       duration: "Summer 2019"
       content: "Interned at an outsourcing company. The project in Java is to prevent certain users to access particular information based on the clients' corporate divisions and branches.
-        <p> Main duty: debugging display issues and duplicity; wrote a function call that non-recursively traverses through a tree and assigns organizations authorization levels."
+        Updated the internal work journal software to map each entry with that personnel’s assigned task."
 
     # experience item loop
     - name : "Weather App"
@@ -121,34 +150,42 @@ skill:
   title : "SKILL"
   skill_list:
     # skill item loop
+    - name: "MatLab"
+      parcentage: "85%"
+
     - name : "Python"
-      parcentage : "85%"
+      parcentage : "80%"
 
-    - name: "C or C++"
+    - name: "R"
       parcentage: "80%"
-
-    - name : "MatLab"
-      parcentage : "70%"
 
     - name: "Java"
       parcentage: "75%"
 
+        # skill item loop
+    - name: "Software Development"
+      parcentage: "75%"
+
+    - name: "C or C++"
+      parcentage: "70%"
+
+    # skill item loop
+    - name: "Theoretical Computer Science"
+      parcentage: "70%"
+
+    - name: "Gradle"
+      parcentage: "70%"
+
       # skill item loop
-    - name : "Database"
+    - name : "MySql"
       parcentage : "65%"
 
     # skill item loop
     - name: "Networking"
       parcentage: "60%"
 
-    # skill item loop
-    - name : "Software Development"
-      parcentage : "70%"
-      
-    # skill item loop
-    - name : "Theoretical Computer Science"
-      parcentage : "80%"
-
+    - name : "AS400"
+      parcentage : "40%"
 
 ################################### Service ##############################3
 service:
