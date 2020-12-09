@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="a42a96a4-4328-450c-8b22-d58d0d6d5b22" name="Default Changelist" comment="FALL 2020 updates">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config.toml" beforeDir="false" afterPath="$PROJECT_DIR$/config.toml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/layouts/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/layouts/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -48,7 +47,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1607477741516</updated>
-      <workItem from="1607477744296" duration="7522000" />
+      <workItem from="1607477744296" duration="8125000" />
+      <workItem from="1607543037632" duration="143000" />
     </task>
     <task id="LOCAL-00001" summary="FALL 2020 updates">
       <created>1607483236412</created>
@@ -57,7 +57,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607483236412</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="FALL 2020 updates">
+      <created>1607485911879</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1607485911879</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -73,6 +80,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <ignored-roots>
