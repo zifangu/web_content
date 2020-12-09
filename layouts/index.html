@@ -261,11 +261,25 @@
           </div>
           {{ end }}
         </div>
+        {{ end }}
+        {{ end }}
+
+        {{ if $data.homepage.course.enable }}
+        {{ with $data.homepage.course }}
+        <h3>{{ .title }}</h3>
+        <div class="skill-progress-bar">
+          {{ range .course_list }}
+          <div class="clearfix">
+            <span class="skillbar-title">{{ .name }}</span>
+            <span class="skill-bar-percent">{{ .parcentage }}</span>
+          </div>
+          {{ end }}
+        </div>
       </div>
       {{ end }}
       {{ end }}
     </div>
-    </div>
+  </div>
 </section>
 <!-- =============================
       End Experience
