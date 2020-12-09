@@ -207,32 +207,44 @@
     </div>
     {{ end }}
     {{ end }}
+  </div>
+</section>
 
+<!-- =============================
+      End About Me
+    =============================== -->
+
+<!-- =============================
+       Start Experience
+    =============================== -->
+
+<section class="experience" id="experience">
+  <div class="container-fluid text-center">
     <div class="row experience-skill">
       {{ if $data.homepage.experience.enable }}
       {{ with $data.homepage.experience }}
-      <div class="col-lg-6 col-sm-6 col-11 experience wow fadeInUp" data-wow-duration="1.5s">
-        <h3>{{ .title }}</h3>
-        <ul class="experience-chart">
-          {{ range .experience_list }}
-          <li>
-            <div class="single-experience">
-              <h4>{{ .name | markdownify }}</h4>
-              {{ with .company }} <span>{{ . | markdownify }}</span> {{ end }}
-              {{ with .duration }} <span><br>{{ . | markdownify }}</span> {{ end }}
-              {{ with .content }} <p>{{ . | emojify }}</p> {{ end }}
-              {{ if .button.enable }}
-              {{ with .button }}
-               <a href="{{ .link | absURL }}" class="download-cv hvr-icon-hang"> {{ .label }} &nbsp; &nbsp; &nbsp;</a>
-              {{ end }}
-              {{ end }}
-            </div>
-          </li>
-          {{ end }}
-        </ul>
-      </div>
-      {{ end }}
-      {{ end }}
+        <div class="col-lg-6 col-sm-6 col-11 experience wow fadeInUp" data-wow-duration="1.5s">
+          <h3>{{ .title }}</h3>
+          <ul class="experience-chart">
+            {{ range .experience_list }}
+            <li>
+              <div class="single-experience">
+                <h4>{{ .name | markdownify }}</h4>
+                {{ with .company }} <span>{{ . | markdownify }}</span> {{ end }}
+                {{ with .duration }} <span><br>{{ . | markdownify }}</span> {{ end }}
+                {{ with .content }} <p>{{ . | emojify }}</p> {{ end }}
+                {{ if .button.enable }}
+                {{ with .button }}
+                 <a href="{{ .link | absURL }}" class="download-cv hvr-icon-hang"> {{ .label }} &nbsp; &nbsp; &nbsp;</a>
+                {{ end }}
+                {{ end }}
+              </div>
+            </li>
+            {{ end }}
+          </ul>
+        </div>
+        {{ end }}
+        {{ end }}
 
       {{ if $data.homepage.skill.enable }}
       {{ with $data.homepage.skill }}
@@ -256,7 +268,7 @@
   </div>
 </section>
 <!-- =============================
-      End About Me
+      End Experience
     =============================== -->
 
 <!-- =============================

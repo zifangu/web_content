@@ -59,7 +59,7 @@ weight = 2
 
 [[menu.main]]
 name = "Experience"
-URL = "#service"
+URL = "#experience"
 weight = 3
 
 [[menu.main]]
@@ -114,7 +114,7 @@ link = "https://github.com/zifangu"
 
 [[params.social]]
 icon = "fa-linkedin" # fontawesome icon 4.7.0 : https://fontawesome.com/v4.7.0/icons/
-link = "https://www.linkedin.com/in/ivan-gu-4a7669197/"
+link = "https://www.linkedin.com/in/ivan-gu/"
 
 
 ################################### English language #####################################
