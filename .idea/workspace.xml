@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a42a96a4-4328-450c-8b22-d58d0d6d5b22" name="Default Changelist" comment="FALL 2020 updates">
+      <change afterPath="$PROJECT_DIR$/static/images/heart.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/lol.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/machi_koro.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/en/homepage.yml" beforeDir="false" afterPath="$PROJECT_DIR$/data/en/homepage.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -14,6 +18,7 @@
   </component>
   <component name="ProjectId" id="1lOowup5c6oMjpxNejPahD9hH1H" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <OptionsSetting value="false" id="Update" />
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectViewState">
@@ -21,6 +26,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -49,7 +55,7 @@
       <workItem from="1607477744296" duration="8125000" />
       <workItem from="1607543037632" duration="143000" />
       <workItem from="1607543195187" duration="4001000" />
-      <workItem from="1608158284179" duration="14000" />
+      <workItem from="1608158284179" duration="1850000" />
     </task>
     <task id="LOCAL-00001" summary="FALL 2020 updates">
       <created>1607483236412</created>
@@ -79,7 +85,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607546167306</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="FALL 2020 updates">
+      <created>1608158567161</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1608158567161</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -98,6 +111,7 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <ignored-roots>
       <path value="$PROJECT_DIR$/themes/somrat/somrat" />
     </ignored-roots>
