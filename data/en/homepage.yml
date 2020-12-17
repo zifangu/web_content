@@ -305,21 +305,21 @@ portfolio:
   title : "PORTFOLIO"
   portfolio_list:
     # portfolio item loop
-    - name: "Board Game Digitization"
+    - name: "Digitize Board Game "
       link: "https://github.com/zifangu/Machi-Koro-Digitization"
       image: "images/machi_koro.jpg"
       date: "Fall 2020"
       category: "Software"
 
     # portfolio item loop
-    - name: "Research in Physiology"
+    - name: "Indep. Study in Physio."
       link: "https://github.com/zifangu/heart-rate-variability"
       image: "images/heart.jpg"
       date: "Fall 2020"
       category: "Research"
 
     # portfolio item loop
-    - name: "Supervised Learning"
+    - name: "Machine Learning"
       link: "https://github.com/zifangu/surf-2020"
       image: "images/lol.jpg"
       date: "Summer 2020"
